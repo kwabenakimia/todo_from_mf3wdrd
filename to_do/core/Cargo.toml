@@ -1,0 +1,11 @@
+# File: ./to_do/core/Cargo.toml
+
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dal = { path = "../dal", features = ["json-file"]}
+serde = { version = "1.0.197", features = ["derive"]}
+clap  = { version = "4.5.4", features = ["derive"]}

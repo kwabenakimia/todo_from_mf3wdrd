@@ -1,0 +1,11 @@
+# File: ./to_do/networking/actix_server/Cargo.toml
+
+[package]
+name = "actix_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.36.0", features = ["full"] }
+actix-web = "4.5.1"
+core = { path = "../../core"}
